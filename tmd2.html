@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+    <meta charset="UTF-8">
+    <title>麻雀代儲</title>
+    <link rel="stylesheet" href="代儲網站.css">
+    <script>
+               function copyAndRedirect() {
+            const textToCopy = "購買420cp=164台幣"; // 設定要複製的內容
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                // 文字複製成功後，跳轉到指定網址
+                console.error("複製失敗：", err);
+            });
+        }
+    </script>
+</head>
+<div class="container">
+    <h1>價格164台幣</h1>
+    <ul>
+        <li><a href="https://line.me/ti/p/eQ22hvXPGy" class="button" onclick="copyAndRedirect()">購買</a></li>
+    </ul>
+</div>
+</html>
