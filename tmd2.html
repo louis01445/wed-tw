@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+    <meta charset="UTF-8">
+    <title>麻雀代儲</title>
+    <link rel="stylesheet" href="代儲網站.css">
+    <script>
+               function copyAndRedirect() {
+            const textToCopy = "購買420cp=164台幣(全家付款)"; // 設定要複製的內容
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                // 文字複製成功後，跳轉到指定網址
+                console.error("複製失敗：", err);
+            });
+        }
+        function copyAndRedirect() {
+            const textToCopy = "購買420cp=164台幣()"; // 設定要複製的內容
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                // 文字複製成功後，跳轉到指定網址
+                console.error("複製失敗：", err);
+            });
+        }
+    </script>
+</head>
+<div class="container">
+    <h1>麻雀代儲</h1>
+    <h2>如選擇 (其它繳費方式) 後面括號自行填寫，感謝合作</h2>
+    <h2>全家繳費不須25元手續費，感謝合作</h2>
+    <p>價格164台幣</p>
+    <ul>
+        <li><a href="https://line.me/ti/p/eQ22hvXPGy" class="button" onclick="copyAndRedirect()">購買(全家繳費)</a></li>
+        <li><a href="https://line.me/ti/p/eQ22hvXPGy" class="button" onclick="copyAndRedirect2()">購買(其他繳費方式)</a></li>
+    </ul>
+</div>
+</html>
