@@ -1,9 +1,10 @@
-boby {
-    background-image: url(pngtree-cute-cartoon-sparrow-bird-clipart-illustration-png-image_16445508.png); /*白色被酒*/
-    background-size: cover;
+body {
+    background-color: black;
+    background-image: url(https://louis01445.github.io/wed-tw/HD-Wallpaper-Background-Images-of-Sparrows-in-1920x1080-Resolution_2773661_wh1200.jpg); /*白色被酒*/
     background-position: center;
-    
-    color: black;/*黑色文字*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);/*黑色文字*/
     overflow: hidden ;/*隱藏滑輪*/
 }
 
@@ -50,5 +51,23 @@ li {
 }
 
 .button:hover {
+    background-color: #007acc; /* 滑鼠懸停時改變背景顏色 */
+}
+
+.button2 {
+    display: inline-block; /* 使按鈕顯示為行內塊 */
+    width: 60px; /* 固定按鈕寬度 */
+    height: 10px; /* 固定按鈕高度 */
+    padding: 10px; /* 按鈕內邊距 */
+    background-color: #1e90ff; /* 按鈕背景顏色 */
+    color: #ffffff; /* 按鈕文字顏色 */
+    text-decoration: none; /* 移除下劃線 */
+    border-radius: 5px; /* 按鈕圓角 */
+    font-size: 5px; /* 按鈕文字大小 */
+    transition: background-color 0.3s; /* 背景顏色過渡效果 */
+    line-: 50px; /* 垂直置中 */
+}
+
+.button2:hover {
     background-color: #007acc; /* 滑鼠懸停時改變背景顏色 */
 }
