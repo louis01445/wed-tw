@@ -29,6 +29,12 @@ li {
     margin: 10px 0; /* 列表項目上下間距 */
 }
 
+.grid {
+    display: grid; /* 使用 Grid 佈局*/
+    grid-template-columns: repeat(4,1fr); /* 設定 4 列，寬度平均分配*/
+    grid-template-rows: repeat(2,auto); /* 設定 2 行，每列的高度根據內容自適應*/
+}
+
 .button {
     display: inline-block; /* 使按鈕顯示為行內塊 */
     width: 200px; /* 固定按鈕寬度 */
